@@ -1,1 +1,0 @@
-https://github.com/akimegr/rsschool-cv/cv
