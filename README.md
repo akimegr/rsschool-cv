@@ -1,1 +1,1 @@
-https://github.com/akimegr/rsschool-cv/cv
+https://akimegr-htmlcssgitbasics.netlify.app/
