@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+article{
+    background-color: aquamarine;
+}
+.toleft{
+    background-color: blueviolet;
+}
+.aboutMe{
+    background-color: aqua;
+}
+footer{
+    background-color: antiquewhite;
+}
