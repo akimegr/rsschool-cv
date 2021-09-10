@@ -1,0 +1,41 @@
+[33mcommit a0fff6d8602efa69f29d9bc90ac6d9a0c3b09e9d[m[33m ([m[1;36mHEAD -> [m[1;32mrsschool-cv-html[m[33m)[m
+Author: akim.egor2013@mail.ru <akim.egor2013@mail.ru>
+Date:   Tue Aug 24 18:12:36 2021 +0300
+
+    feat: add Time and refactor code
+
+[33mcommit ec38c1116179ca87424b29c0f0f515c63dc96283[m[33m ([m[1;31morigin/rsschool-cv-html[m[33m)[m
+Author: akim.egor2013@mail.ru <akim.egor2013@mail.ru>
+Date:   Tue Aug 24 16:12:54 2021 +0300
+
+    feat: add site with html
+
+[33mcommit caa1d82c5ea1a3e5feac144548153ee2b166b352[m[33m ([m[1;31morigin/gh-pages[m[33m, [m[1;32mgh-pages[m[33m)[m
+Author: akim.egor2013@mail.ru <akim.egor2013@mail.ru>
+Date:   Tue Aug 24 01:36:14 2021 +0300
+
+    docs: refactor text
+
+[33mcommit 998bc5f7822a268eaa75f7bdd6b312dbe8b53b75[m
+Author: akim.egor2013@mail.ru <akim.egor2013@mail.ru>
+Date:   Tue Aug 24 01:29:59 2021 +0300
+
+    docs: add my information
+
+[33mcommit b2edfd12f346cc15004f35c615ab6da5112a886f[m
+Author: akim.egor2013@mail.ru <akim.egor2013@mail.ru>
+Date:   Mon Aug 23 23:49:20 2021 +0300
+
+    refactor: add cv.md
+
+[33mcommit 68c05cf7db8476da7987a494aba2f12e0b272c29[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: akim.egor2013@mail.ru <akim.egor2013@mail.ru>
+Date:   Mon Aug 23 23:34:58 2021 +0300
+
+    docs: update readme with additional information
+
+[33mcommit f7eee22cdcd8a81a0c1661d0662c5ce25cced625[m
+Author: akimegr <82463845+akimegr@users.noreply.github.com>
+Date:   Mon Aug 23 23:10:24 2021 +0300
+
+    Initial commit
