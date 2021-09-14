@@ -66,6 +66,20 @@ pre {
 
 footer {
     margin: 0 auto;
+    position: relative;
+}
+
+time {
+    position: absolute;
+    left: 50%;
+}
+
+.course {
+    margin-top: 50px;
+}
+
+.img__course {
+    padding-top: 50px;
 }
 
 .left {
