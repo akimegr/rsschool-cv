@@ -74,12 +74,10 @@ time {
     left: 50%;
 }
 
-.course {
-    margin-top: 50px;
-}
-
-.img__course {
-    padding-top: 50px;
+.my__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .left {
