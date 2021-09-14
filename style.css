@@ -1,15 +1,145 @@
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+.left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+
+.skils {
+    flex: 1;
+    position: fixed;
+    top: 5px;
+    right: 40px;
+}
+
+header {
     text-align: center;
 }
-article{
-    background-color: aquamarine;
+
+.myContacts {
+    text-align: center;
 }
-.toleft{
-    background-color: blueviolet;
+
+.vl {
+    border-left: 5px solid aqua;
+    height: 1300px;
+    margin: 10px;
 }
-.aboutMe{
-    background-color: aqua;
+
+h2 {
+    margin-top: 40px;
 }
-footer{
-    background-color: antiquewhite;
+
+.flexCont {
+    position: relative;
 }
+
+.info {
+    position: absolute;
+    left: 300px;
+    width: 70%;
+}
+
+.lvl {
+    position: absolute;
+    left: 270px
+}
+
+.rvl {
+    position: absolute;
+    right: 120px
+}
+
+pre {
+    background-color: beige;
+}
+
+
+/* ul {
+    margin: 0px;
+} */
+
+footer {
+    margin: 0 auto;
+    position: relative;
+}
+
+time {
+    position: absolute;
+    left: 50%;
+}
+
+.my__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left {
+    flex: 2;
+}
+
+.aboutMe {
+    flex: 5;
+}
+
+
+/* 
+/* @media screen and (max-height: 320px) {
+    .centr {
+        height: 320px;
+    }
+} */
+
+
+/* .CV {
+    position: relative;
+    border: 10px;
+    border-color: red;
+}
+
+.aboutMe {
+    border: 500px, solid, aqua;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCont {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 5px;
+    position: fixed;
+    left: 5px;
+    top: 5px;
+}
+
+.skils {
+    width: 100px;
+    top: 10px;
+    right: 10px;
+    border: 3px solid aqua;
+}
+
+.aboutMe {
+    position: absolute;
+    left: 250px;
+    right: 100px;
+}
+
+footer {
+    position: absolute;
+    bottom: -700px;
+    left: 100px;
+    width: 700px;
+} */
