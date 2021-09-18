@@ -88,58 +88,8 @@ time {
     flex: 5;
 }
 
-
-/* 
-/* @media screen and (max-height: 320px) {
-    .centr {
-        height: 320px;
+@media screen and (max-width:992px) {
+    .main {
+        max-width: 992px;
     }
-} */
-
-
-/* .CV {
-    position: relative;
-    border: 10px;
-    border-color: red;
 }
-
-.aboutMe {
-    border: 500px, solid, aqua;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
-}
-
-.flexCont {
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    padding: 5px;
-    position: fixed;
-    left: 5px;
-    top: 5px;
-}
-
-.skils {
-    width: 100px;
-    top: 10px;
-    right: 10px;
-    border: 3px solid aqua;
-}
-
-.aboutMe {
-    position: absolute;
-    left: 250px;
-    right: 100px;
-}
-
-footer {
-    position: absolute;
-    bottom: -700px;
-    left: 100px;
-    width: 700px;
-} */
