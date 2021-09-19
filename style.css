@@ -89,6 +89,116 @@ time {
     flex: 5;
 }
 
+@media screen and (min-width:2240px) {
+    .main {
+        position: relative;
+        width: 2238px;
+    }
+    .flexCont {
+        position: relative;
+    }
+    .info {
+        position: absolute;
+        left: 250px;
+        width: 79%;
+        font-size: 1.8em;
+    }
+    .left {
+        max-width: 200px;
+        font-size: 1em;
+    }
+    footer {
+        font-size: 1em;
+    }
+    .centr {
+        width: 2238px;
+    }
+    .skils {
+        right: 0px;
+        width: 170px;
+    }
+    .rvl {
+        position: absolute;
+        right: 170px;
+    }
+    .lvl {
+        position: absolute;
+        left: 210px;
+    }
+    pre {
+        width: auto;
+        overflow-x: scroll;
+        background-color: beige;
+    }
+    time {
+        position: absolute;
+        left: 70%;
+    }
+    .skils {
+        position: absolute;
+        font-size: 1.4em;
+    }
+    .vl {
+        border-left: 5px solid aqua;
+        height: 2100px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:2240px) {
+    .main {
+        width: 2238px;
+    }
+    .flexCont {
+        position: relative;
+    }
+    .info {
+        position: absolute;
+        left: 250px;
+        width: 79%;
+        font-size: 1.8em;
+    }
+    .left {
+        max-width: 200px;
+        font-size: 1em;
+    }
+    footer {
+        font-size: 1em;
+    }
+    .centr {
+        width: 2238px;
+    }
+    .skils {
+        right: 0px;
+        width: 170px;
+    }
+    .rvl {
+        position: absolute;
+        right: 170px;
+    }
+    .lvl {
+        position: absolute;
+        left: 210px;
+    }
+    pre {
+        width: auto;
+        overflow-x: scroll;
+        background-color: beige;
+    }
+    time {
+        position: absolute;
+        left: 70%;
+    }
+    .skils {
+        font-size: 1.4em;
+    }
+    .vl {
+        border-left: 5px solid aqua;
+        height: 2100px;
+        margin: 10px;
+    }
+}
+
 @media screen and (max-width:1502px) {
     .main {
         width: 1500px;
