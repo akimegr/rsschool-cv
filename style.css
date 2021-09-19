@@ -41,8 +41,9 @@ h2 {
 
 .info {
     position: absolute;
+    font-size: 1.5em;
     left: 300px;
-    width: 70%;
+    width: 80%;
 }
 
 .lvl {
@@ -88,8 +89,188 @@ time {
     flex: 5;
 }
 
+@media screen and (max-width:1502px) {
+    .main {
+        width: 1500px;
+    }
+    .flexCont {
+        position: relative;
+    }
+    .info {
+        position: absolute;
+        left: 250px;
+        width: 75%;
+        font-size: 1.8em;
+    }
+    .left {
+        max-width: 200px;
+        font-size: 1em;
+    }
+    footer {
+        font-size: 1em;
+    }
+    .centr {
+        width: 1400px;
+    }
+    .skils {
+        right: 0px;
+        width: 170px;
+    }
+    .rvl {
+        position: absolute;
+        right: 70px;
+    }
+    .lvl {
+        position: absolute;
+        left: 210px;
+    }
+    pre {
+        width: auto;
+        overflow-x: scroll;
+        background-color: beige;
+    }
+    time {
+        position: absolute;
+        left: 70%;
+    }
+    .skils {
+        font-size: 1.4em;
+    }
+    .vl {
+        border-left: 5px solid aqua;
+        height: 2100px;
+        margin: 10px;
+    }
+}
+
 @media screen and (max-width:992px) {
     .main {
-        max-width: 992px;
+        width: 992px;
+    }
+    .flexCont {
+        position: relative;
+    }
+    .info {
+        position: absolute;
+        left: 250px;
+        width: 78%;
+        font-size: 1.5em;
+    }
+    .left {
+        max-width: 200px;
+        font-size: 1em;
+    }
+    footer {
+        font-size: 1em;
+    }
+    .centr {
+        width: 770px;
+    }
+    .skils {
+        width: 100px;
+        right: 20px;
+    }
+    .rvl {
+        position: absolute;
+        right: -110px;
+    }
+    .lvl {
+        position: absolute;
+        left: 210px;
+    }
+    pre {
+        width: auto;
+        overflow-x: scroll;
+        background-color: beige;
+    }
+    time {
+        position: absolute;
+        left: 70%;
+    }
+    .skils {
+        font-size: 1.4em;
+    }
+    .vl {
+        border-left: 5px solid aqua;
+        height: 1900px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main {
+        max-width: 767px;
+    }
+    .flexCont {
+        position: relative;
+    }
+    .info {
+        position: absolute;
+        left: 165px;
+        width: 505px;
+        font-size: 1.8em;
+    }
+    .left {
+        max-width: 140px;
+        height: auto;
+        font-size: 0.9em;
+    }
+    .img__course2 {
+        height: 200px;
+        width: 150px;
+    }
+    .text__cv {
+        font-size: 1.1em;
+    }
+    h1 {
+        margin-bottom: -10px;
+    }
+    .mail {
+        font-size: 0.7em;
+    }
+    .centr {
+        max-width: 670px;
+    }
+    .skils {
+        right: 30px;
+        width: 70px;
+        font-size: 10em;
+    }
+    .text__skills {
+        margin: 0 auto;
+        text-align: left;
+        font-size: 0.7em;
+    }
+    .text__skills2 {
+        margin: 0 auto;
+        text-align: right;
+        margin-top: 20px;
+        font-size: 0.6em;
+    }
+    .rvl {
+        position: absolute;
+        right: -25px;
+    }
+    .lvl {
+        position: absolute;
+        left: 140px;
+    }
+    pre {
+        width: auto;
+        overflow-x: scroll;
+        background-color: beige;
+    }
+    time {
+        position: absolute;
+        left: 50%;
+        top: 160px;
+    }
+    .skils {
+        font-size: 1.4em;
+    }
+    .vl {
+        border-left: 5px solid aqua;
+        height: 2400px;
+        margin: 10px;
     }
 }
