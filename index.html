@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+    <main class="main">
+        <div class="left">
+            <header class="CV">
+                <div class="text__cv">
+                    <h1 class="stat">My CV</h1>
+                    <h2>Egor Akimov</h2>
+                    <h3>student, web developer</h3>
+                </div>
+                <div class="my__img">
+                    <img class="img__course2" src="Jhfj4DsSro0.jpg" alt="Me" height="250" width="200">
+                    <img class="img__course" src="/rs_school_js.svg" alt="course" height="20">
+                </div>
+            </header>
+            <footer>
+                <h3 class="myContacts">contacts</h3>
+                <ul>
+
+                    <li><a href="https://www.linkedin.com/in/egor-akimov-75232921a/">My linkedin</a></li>
+                    <li>
+                        <p class="mail">My email: akim.egor2013@mail.ru</p>
+                    </li>
+                    <li><a href="https://github.com/akimegr">My github</a></li>
+                    <li class="course"><a href="https://rs.school/js/">
+                            Best course in
+                            <time>2021</time></a></li>
+
+                </ul>
+
+
+
+
+            </footer>
+
+        </div>
+
+        <article class="centr">
+            <div class="flexCont">
+                <div class="vl rvl"></div>
+                <div class="info">
+                    <div class="aboutMe">
+                        <h2>About me</h2>
+                        <p>
+                            I am studying at BNTU as a programmer. My dream is to become a web developer and I do everything for this. Together with my studies at the university, I always learn something new on the Internet. And I can't stop doing something. I am learning something
+                            new anytime, anywhere. And I love it!
+                        </p>
+
+                        <p>I have taken courses on various platforms. There are also certificates from such platforms as GeekBrains, Stepic for Java, Java script, databases, English. In the summer, I took a course on Python and cybersecurity from the IBA
+                            company. There are also certificates of successful completion
+                            <span class="plus">I also constantly watch educational lectures on YouTube.</span>
+                        </p>
+                        <h2>My English</h2>
+                        <p>I study English on my own and in courses. My English level is A2</p>
+                    </div>
+                    <div class="MyCode">
+                        <div id="java">
+                            <h2>
+                                JAVA CODE:
+                            </h2>
+                            <pre>
+                                <code>
+                                    class Person {
+                                        private String name;
+                                       private int age;
+                                       private String job;
+                                        Person(){
+                                    
+                                        }
+                                    
+                                        Person (String name, int age){
+                                            this.name = name;
+                                            if (age>0)
+                                                this.age = age;
+                                            else
+                                                this.age = Math.abs(age);
+                                        }
+                                </code>                                }
+                            </pre>
+                        </div>
+                        <div id="C">
+                            <h2>
+                                C++ CODE:
+                            </h2>
+                            <pre>
+                                <code>
+                                    class Person {
+                                        private:
+                                            string name_n;
+                                            int age_n;
+                                            string job_n;
+                                            string country_n;
+                                        
+                                        public:
+                                            Person(string name, int age, string job, string country) {
+                                                name_n = name;
+                                                age_n = age;
+                                                job_n = job;
+                                                country_n = country;
+                                            }
+                                        }
+                                    
+                                </code>    
+                            </pre>
+                        </div>
+
+                        <div id="Python">
+                            <h2>
+                                PYTHON CODE:
+                            </h2>
+                            <pre>
+                                <code>
+                                    a = input ("Your namber : +, - , * , / ")
+                                b = input (" 1 q: ")
+                                c = input (" 2 q : ")
+                                if a == "+" :
+                                    result = str(b) + "+"+ str (c) + "=" + str (a+b)
+                                    print (result)
+                                </code>
+                            </pre>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="vl lvl"></div>
+
+
+            </div>
+
+
+        </article>
+        <div class="skils">
+            <h3 class="text__skills2">My skils</h3>
+            <ul class="text__skills">
+                <li> <a href="#java">Java</a> </li>
+                <li> <a href="#C">C++</a> </li>
+                <li>
+                    <a href="#Python">Python</a>
+                </li>
+                <li>Git</li>
+            </ul>
+            <div class="all__project">
+                <a target="_blank" href="https://github.com/akimegr/Doudle-Jump">
+                    <img class="my__project" src="/pt.jpg" alt="Python">
+                </a>
+                <a target="_blank" href="https://github.com/akimegr/rsschool-cv">
+                    <img class="my__project" src="/html.jpg" alt="html">
+                </a>
+
+            </div>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
