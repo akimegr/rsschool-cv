@@ -10,6 +10,15 @@ html {
     height: 600px;
 }
 
+.my__project {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .skils {
     flex: 1;
     position: fixed;
@@ -140,7 +149,7 @@ time {
     }
     .vl {
         border-left: 5px solid aqua;
-        height: 2100px;
+        height: 2400px;
         margin: 10px;
     }
 }
@@ -194,7 +203,7 @@ time {
     }
     .vl {
         border-left: 5px solid aqua;
-        height: 2100px;
+        height: 2400px;
         margin: 10px;
     }
 }
@@ -248,7 +257,7 @@ time {
     }
     .vl {
         border-left: 5px solid aqua;
-        height: 2100px;
+        height: 2500px;
         margin: 10px;
     }
 }
@@ -302,7 +311,7 @@ time {
     }
     .vl {
         border-left: 5px solid aqua;
-        height: 1900px;
+        height: 2200px;
         margin: 10px;
     }
 }
@@ -380,7 +389,14 @@ time {
     }
     .vl {
         border-left: 5px solid aqua;
-        height: 2400px;
+        height: 2800px;
         margin: 10px;
+    }
+    .all__project {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        left: 28px;
+        top: 120px;
     }
 }

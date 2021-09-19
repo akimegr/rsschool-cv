@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
 </head>
 
 <body>
@@ -69,21 +74,23 @@
                                 JAVA CODE:
                             </h2>
                             <pre>
-                                class Person {
-                                    private String name;
-                                   private int age;
-                                   private String job;
-                                    Person(){
-                                
-                                    }
-                                
-                                    Person (String name, int age){
-                                        this.name = name;
-                                        if (age>0)
-                                            this.age = age;
-                                        else
-                                            this.age = Math.abs(age);
-                                    }                                }
+                                <code>
+                                    class Person {
+                                        private String name;
+                                       private int age;
+                                       private String job;
+                                        Person(){
+                                    
+                                        }
+                                    
+                                        Person (String name, int age){
+                                            this.name = name;
+                                            if (age>0)
+                                                this.age = age;
+                                            else
+                                                this.age = Math.abs(age);
+                                        }
+                                </code>                                }
                             </pre>
                         </div>
                         <div id="C">
@@ -91,22 +98,24 @@
                                 C++ CODE:
                             </h2>
                             <pre>
-                                class Person {
-                                    private:
-                                        string name_n;
-                                        int age_n;
-                                        string job_n;
-                                        string country_n;
-                                    
-                                    public:
-                                        Person(string name, int age, string job, string country) {
-                                            name_n = name;
-                                            age_n = age;
-                                            job_n = job;
-                                            country_n = country;
+                                <code>
+                                    class Person {
+                                        private:
+                                            string name_n;
+                                            int age_n;
+                                            string job_n;
+                                            string country_n;
+                                        
+                                        public:
+                                            Person(string name, int age, string job, string country) {
+                                                name_n = name;
+                                                age_n = age;
+                                                job_n = job;
+                                                country_n = country;
+                                            }
                                         }
-                                    }
                                     
+                                </code>    
                             </pre>
                         </div>
 
@@ -115,12 +124,14 @@
                                 PYTHON CODE:
                             </h2>
                             <pre>
-                                a = input ("Your namber : +, - , * , / ")
+                                <code>
+                                    a = input ("Your namber : +, - , * , / ")
                                 b = input (" 1 q: ")
                                 c = input (" 2 q : ")
                                 if a == "+" :
                                     result = str(b) + "+"+ str (c) + "=" + str (a+b)
                                     print (result)
+                                </code>
                             </pre>
                         </div>
 
@@ -143,6 +154,15 @@
                 </li>
                 <li>Git</li>
             </ul>
+            <div class="all__project">
+                <a href="https://github.com/akimegr/Doudle-Jump" target="_blanc">
+                    <img class="my__project" src="/pt.jpg" alt="Python">
+                </a>
+                <a href="https://github.com/akimegr/rsschool-cv" target="_blanc">
+                    <img class="my__project" src="/html.jpg" alt="html">
+                </a>
+
+            </div>
         </div>
 
 
